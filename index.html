@@ -1,0 +1,43 @@
+    <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>A weird game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="welcome" class="container">
+        <h1>Welcome dear user to my not common game!!</h1>
+        <h2>By continuing you accept to be tricked, manipulated but also to have a good time...</h2>
+    </div>
+    <button id="admin-button">Admin Only</button>
+    <div id="notification-container"></div>
+    <div id="age-part" class="container">
+        <p>Before we start, let me trust you in this...</p>
+        <label for="age">Age: 
+            <input type="number" id="age" placeholder="Honesty..." required>
+        </label><br>
+        <button id="Submit">Submit</button>
+    </div>
+    <p id="message" class="message"></p>
+    <div id="game" class="container">
+        <div id="Game-info">
+            <h2 id="part">Part One: Riddles</h2>
+            <h3 id="level">Level One</h3>
+            <img id="desc-image" src="" alt=""><br><!--I don't think adding images here is a good idea so, I will leave it like that for now, but when I'll be back to this code in two  to three months, I got to add it-->
+            <p id="riddle"></p>
+            <div id="options">
+                <button id="option1"></button>
+                <button id="option2"></button>
+                <button id="option3"></button>
+                <button id="option4"></button>
+                <!-- <div id="guessed-container"></div>
+                <div id="Submit2"></div> -->
+            </div>
+        </div>
+        <!-- <button id="guess">Number guessing game</button> -->
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
